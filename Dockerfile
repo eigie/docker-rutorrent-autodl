@@ -59,7 +59,11 @@ RUN \
 	wget \
 	xz \
 	zip \
-	zlib && \
+	zlib \
+	cksfv \
+	file \
+	findutils \
+	util-linux && \
  echo "**** setup python pip dependencies ****" && \
  pip install --no-cache-dir -U \
 	cloudscraper \
